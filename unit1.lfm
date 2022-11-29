@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 676
+  Height = 417
+  Top = 137
+  Width = 541
+  Caption = 'Tic Tac Toe, but on C# it would be better'
+  ClientHeight = 417
+  ClientWidth = 541
+  Color = 121
+  LCLVersion = '2.2.2.0'
+  object Button1: TButton
+    Left = 16
+    Height = 80
+    Top = 112
+    Width = 80
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Name = 'Fixedsys'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 112
+    Height = 45
+    Top = 8
+    Width = 326
+    Caption = 'Tic Tac Sharp'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clWindow
+    Font.Height = 50
+    Font.Name = 'Fixedsys'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 80
+    Top = 112
+    Width = 80
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 192
+    Height = 80
+    Top = 112
+    Width = 80
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 16
+    Height = 80
+    Top = 200
+    Width = 80
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 104
+    Height = 80
+    Top = 200
+    Width = 80
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 192
+    Height = 80
+    Top = 200
+    Width = 80
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 16
+    Height = 80
+    Top = 288
+    Width = 80
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 104
+    Height = 80
+    Top = 288
+    Width = 80
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 192
+    Height = 80
+    Top = 288
+    Width = 80
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Name = 'Fixedsys'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 8
+  end
+end
